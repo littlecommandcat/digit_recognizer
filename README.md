@@ -1,4 +1,4 @@
-# Handwriting Recognizer
+# Cat Handwriting Recognizer
 
 A simple Python module for recognizing handwritten using machine learning. Designed for easy integration and efficient preprocessing.
 
@@ -16,12 +16,12 @@ A simple Python module for recognizing handwritten using machine learning. Desig
 Install from GitHub:
 
 ```bash
-pip install git+https://github.com/littlecommandcat/handwriting_recognizer.git
+pip install git+https://github.com/littlecommandcat/cat_handwriting_recognizer.git
 ```
 
 ## Quick Example
 ```py
-from handwriting_recognizer import HandwritingRecognizer  
+from cat_handwriting_recognizer import HandwritingRecognizer  
 import asyncio
 
 machine = HandwritingRecognizer(timeout=-1)
